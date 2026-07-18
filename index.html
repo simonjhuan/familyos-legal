@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family OS — Legal & Support</title>
+  <style>
+    :root {
+      --bg: #fdf7f9;
+      --card: #ffffff;
+      --ink: #2b2530;
+      --muted: #6b6472;
+      --accent: #ff6b8a;
+      --line: #efe4ea;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #17131b;
+        --card: #201a26;
+        --ink: #f2ecf4;
+        --muted: #a99fb2;
+        --accent: #ff8da3;
+        --line: #322a3a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 32px 20px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 40px 36px;
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 4px;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0 0 24px;
+    }
+    .pill {
+      display: inline-block;
+      background: color-mix(in srgb, var(--accent) 16%, transparent);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: .8rem;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+    .docs {
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .doc-link {
+      display: block;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--ink);
+      transition: all 0.2s ease;
+    }
+    .doc-link:hover {
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .doc-link h3 {
+      margin: 0 0 4px;
+      font-size: 1.1rem;
+    }
+    .doc-link p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <span class="pill">Care without surveillance</span>
+  <h1>Family OS — Legal & Support</h1>
+  <p class="sub">Documentation and policies for Family Pulse</p>
+
+  <div class="docs">
+    <a href="privacy-policy.html" class="doc-link">
+      <h3>Privacy Policy</h3>
+      <p>How we handle your data and protect your privacy</p>
+    </a>
+    <a href="support.html" class="doc-link">
+      <h3>Support & Help</h3>
+      <p>Get help, contact us, and find answers to common questions</p>
+    </a>
+  </div>
+
+  <hr style="border: none; border-top: 1px solid var(--line); margin: 28px 0;">
+
+  <p style="color: var(--muted); font-size: .85rem;">
+    Family Pulse is a privacy-first family care app. For questions or concerns, reach us at
+    <a href="mailto:maew0009@gmail.com">maew0009@gmail.com</a>
+  </p>
+</main>
+</body>
+</html>
